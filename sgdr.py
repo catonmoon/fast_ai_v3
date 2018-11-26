@@ -1,5 +1,5 @@
-from .imports import *
-from .layer_optimizer import *
+from imports import *
+from layer_optimizer import *
 from enum import IntEnum
 from timeit import default_timer as timer
 import copy

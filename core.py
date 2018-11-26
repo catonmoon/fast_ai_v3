@@ -1,5 +1,5 @@
-from .imports import *
-from .torch_imports import *
+from imports import *
+from torch_imports import *
 
 def sum_geom(a,r,n): return a*n if r==1 else math.ceil(a*(1-r**n)/(1-r))
 

@@ -1,9 +1,9 @@
-from .imports import *
-from .torch_imports import *
-from .core import *
-from .layer_optimizer import *
-from .swa import *
-from .fp16 import *
+from imports import *
+from torch_imports import *
+from core import *
+from layer_optimizer import *
+from swa import *
+from fp16 import *
 
 IS_TORCH_04 = LooseVersion(torch.__version__) >= LooseVersion('0.4')
 

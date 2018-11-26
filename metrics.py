@@ -1,5 +1,5 @@
-from .imports import *
-from .torch_imports import *
+from imports import *
+from torch_imports import *
 
 # There are 2 versions of each metrics function, depending on the type of the prediction tensor:
 # *    torch preds/log_preds

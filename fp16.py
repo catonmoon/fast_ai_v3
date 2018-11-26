@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
-from .core import trainable_params_
-from .torch_imports import *
+from core import trainable_params_
+from torch_imports import *
 
 IS_TORCH_04 = LooseVersion(torch.__version__) >= LooseVersion('0.4')
 

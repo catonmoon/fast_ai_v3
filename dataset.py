@@ -1,6 +1,6 @@
 from PIL.ImageFile import ImageFile
-from .dataloader import DataLoader
-from .transforms import *
+from dataloader import DataLoader
+from transforms import *
 
 # Try to import pydicom for dicom support, but ignore failures which
 # will cause exceptions to be caught when actually trying to read
