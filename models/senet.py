@@ -8,7 +8,7 @@
 from collections import OrderedDict
 import math
 import torch.utils.model_zoo as model_zoo
-from layers import *
+from .layers import *
 import torch.nn as nn
 from torch.utils import model_zoo
 
