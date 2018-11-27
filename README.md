@@ -1,2 +1,2 @@
-# fast_ai Fall 2018
+# fast_ai v2 2018
 
